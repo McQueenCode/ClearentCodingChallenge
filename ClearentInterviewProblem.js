@@ -20,7 +20,7 @@ of the number.
 
 function fizzBuzz(numbers) {
   for (var numbers = 1; numbers <= 100; numbers++) {
-    if (numbers % 15 === 0) {
+    if (numbers % 5 === 0 && numbers % 3 === 0) {
       console.log("FizzBuzz");
     } else if (numbers % 5 === 0) {
       console.log("Buzz");
